@@ -52,37 +52,31 @@ const Music = () => {
   const musicAPI = [
     {
       songName: "Chasing",
-      songArtist: "NEFFEX",
       songSrc: "./Assets/songs/Mahadev.mp3",
       songAvatar: "./Assets/Images/image1.jpg",
     },
     {
       songName: "AURORA - Runaway",
-      songArtist: "Aurora Aksnes",
       songSrc: "./Assets/songs/new2.mp3",
       songAvatar: "./Assets/Images/image4.jpg",
     },
     {
       songName: "Catch Me If I Fall",
-      songArtist: "TEGNENT",
       songSrc: "./Assets/Songs/new.mp3",
       songAvatar: "./Assets/Images/image2.jpg",
     },
     {
       songName: "Inspired (Clean)",
-      songArtist: "NEFFEX",
       songSrc: "./Assets/Songs/kya.mp3",
       songAvatar: "./Assets/Images/image3.jpg",
     },
     {
       songName: "Baby doll [ slowed + reverb ]",
-      songArtist: "Kanika Kapoor",
       songSrc: "./Assets/songs/new3.mp3",
       songAvatar: "./Assets/Images/image5.jpg",
     },
     {
       songName: "Soch (Slowed+Reverbed)",
-      songArtist: "Hardy Sandhu",
       songSrc: "./Assets/songs/new4.mp3",
       songAvatar: "./Assets/Images/image6.jpg",
     },
@@ -96,51 +90,51 @@ const Music = () => {
       songSrc: "./Assets/songs/dad mummy.mp3",
       songAvatar: "./Assets/Images/image2.jpg",
     },
-    {
-      songName: "jhatka Mare",
-      songSrc: "./Assets/songs/jhatka.mp3",
-      songAvatar: "./Assets/Images/image7.jpg",
-    },
-    {
-      songName: "mai nikla",
-      songSrc: "./Assets/songs/mai nikla.mp3",
-      songAvatar: "./Assets/Images/image7.jpg",
-    },
-    {
-      songName: "O Sanam ",
-      songSrc: "./Assets/songs/o sanam.mp3",
-      songAvatar: "./Assets/Images/image1.jpg",
-    },
-    {
-      songName: "Rab Kare",
-      songSrc: "./Assets/songs/rab kare.mp3",
-      songAvatar: "./Assets/Images/image2.jpg",
-    },
-    {
-      songName: "Rab Ko Yaad",
-      songSrc: "./Assets/songs/rab ko.mp3",
-      songAvatar: "./Assets/Images/image4.jpg",
-    },
-    {
-      songName: "Ratno Ko Uth",
-      songSrc: "./Assets/songs/ranto ko.mp3",
-      songAvatar: "./Assets/Images/image1.jpg",
-    },
-    {
-      songName: "Sawan Aaya hai",
-      songSrc: "./Assets/songs/sawan aaya hai.mp3",
-      songAvatar: "./Assets/Images/image2.jpg",
-    },
-    {
-      songName: "Sona Chandi",
-      songSrc: "./Assets/songs/sona chandi.mp3",
-      songAvatar: "./Assets/Images/image6.jpg",
-    },
-    {
-      songName: "Tu Kal Chala",
-      songSrc: "./Assets/songs/tuCalChala.mp3",
-      songAvatar: "./Assets/Images/image4.jpg",
-    },
+    // {
+    //   songName: "jhatka Mare",
+    //   songSrc: "./Assets/songs/jhatka.mp3",
+    //   songAvatar: "./Assets/Images/image7.jpg",
+    // },
+    // {
+    //   songName: "mai nikla",
+    //   songSrc: "./Assets/songs/mai nikla.mp3",
+    //   songAvatar: "./Assets/Images/image7.jpg",
+    // },
+    // {
+    //   songName: "O Sanam ",
+    //   songSrc: "./Assets/songs/o sanam.mp3",
+    //   songAvatar: "./Assets/Images/image1.jpg",
+    // },
+    // {
+    //   songName: "Rab Kare",
+    //   songSrc: "./Assets/songs/rab kare.mp3",
+    //   songAvatar: "./Assets/Images/image2.jpg",
+    // },
+    // {
+    //   songName: "Rab Ko Yaad",
+    //   songSrc: "./Assets/songs/rab ko.mp3",
+    //   songAvatar: "./Assets/Images/image4.jpg",
+    // },
+    // {
+    //   songName: "Ratno Ko Uth",
+    //   songSrc: "./Assets/songs/ranto ko.mp3",
+    //   songAvatar: "./Assets/Images/image1.jpg",
+    // },
+    // {
+    //   songName: "Sawan Aaya hai",
+    //   songSrc: "./Assets/songs/sawan aaya hai.mp3",
+    //   songAvatar: "./Assets/Images/image2.jpg",
+    // },
+    // {
+    //   songName: "Sona Chandi",
+    //   songSrc: "./Assets/songs/sona chandi.mp3",
+    //   songAvatar: "./Assets/Images/image6.jpg",
+    // },
+    // {
+    //   songName: "Tu Kal Chala",
+    //   songSrc: "./Assets/songs/tuCalChala.mp3",
+    //   songAvatar: "./Assets/Images/image4.jpg",
+    // },
   ];
 
   const handleNextSong = () => {
