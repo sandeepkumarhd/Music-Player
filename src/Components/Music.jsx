@@ -7,7 +7,7 @@ const Music = () => {
   const [currentMusicDetails, setCurrentMusicDetails] = useState({
     songName: "Chasing",
     songArtist: "NEFFEX",
-    songSrc: "./Assets/songs/Chasing - NEFFEX.mp3",
+    Songsrc: "./Assets/Songs/Chasing - NEFFEX.mp3",
     songAvatar: "./Assets/Images/image1.jpg",
   });
 
@@ -52,89 +52,89 @@ const Music = () => {
   const musicAPI = [
     {
       songName: "Chasing",
-      songSrc: "./Assets/songs/Mahadev.mp3",
+      Songsrc: "./Assets/Songs/Mahadev.mp3",
       songAvatar: "./Assets/Images/image1.jpg",
     },
     {
       songName: "AURORA - Runaway",
-      songSrc: "./Assets/songs/new2.mp3",
+      Songsrc: "./Assets/Songs/new2.mp3",
       songAvatar: "./Assets/Images/image4.jpg",
     },
     {
       songName: "Catch Me If I Fall",
-      songSrc: "./Assets/Songs/new.mp3",
+      Songsrc: "./Assets/Songs/new.mp3",
       songAvatar: "./Assets/Images/image2.jpg",
     },
     {
       songName: "Inspired (Clean)",
-      songSrc: "./Assets/Songs/kya.mp3",
+      Songsrc: "./Assets/Songs/kya.mp3",
       songAvatar: "./Assets/Images/image3.jpg",
     },
     {
       songName: "Baby doll [ slowed + reverb ]",
-      songSrc: "./Assets/songs/new3.mp3",
+      Songsrc: "./Assets/Songs/new3.mp3",
       songAvatar: "./Assets/Images/image5.jpg",
     },
     {
       songName: "Soch (Slowed+Reverbed)",
-      songSrc: "./Assets/songs/new4.mp3",
+      Songsrc: "./Assets/Songs/new4.mp3",
       songAvatar: "./Assets/Images/image6.jpg",
     },
     {
       songName: "Apna Bana Le",
-      songSrc: "./Assets/songs/new5.mp3",
+      Songsrc: "./Assets/Songs/new5.mp3",
       songAvatar: "./Assets/Images/image7.jpg",
     },
     {
       songName: "dad Mummy",
-      songSrc: "./Assets/songs/dad mummy.mp3",
+      Songsrc: "./Assets/Songs/dad mummy.mp3",
       songAvatar: "./Assets/Images/image2.jpg",
     },
-    // {
-    //   songName: "jhatka Mare",
-    //   songSrc: "./Assets/songs/jhatka.mp3",
-    //   songAvatar: "./Assets/Images/image7.jpg",
-    // },
-    // {
-    //   songName: "mai nikla",
-    //   songSrc: "./Assets/songs/mai nikla.mp3",
-    //   songAvatar: "./Assets/Images/image7.jpg",
-    // },
-    // {
-    //   songName: "O Sanam ",
-    //   songSrc: "./Assets/songs/o sanam.mp3",
-    //   songAvatar: "./Assets/Images/image1.jpg",
-    // },
-    // {
-    //   songName: "Rab Kare",
-    //   songSrc: "./Assets/songs/rab kare.mp3",
-    //   songAvatar: "./Assets/Images/image2.jpg",
-    // },
-    // {
-    //   songName: "Rab Ko Yaad",
-    //   songSrc: "./Assets/songs/rab ko.mp3",
-    //   songAvatar: "./Assets/Images/image4.jpg",
-    // },
-    // {
-    //   songName: "Ratno Ko Uth",
-    //   songSrc: "./Assets/songs/ranto ko.mp3",
-    //   songAvatar: "./Assets/Images/image1.jpg",
-    // },
-    // {
-    //   songName: "Sawan Aaya hai",
-    //   songSrc: "./Assets/songs/sawan aaya hai.mp3",
-    //   songAvatar: "./Assets/Images/image2.jpg",
-    // },
-    // {
-    //   songName: "Sona Chandi",
-    //   songSrc: "./Assets/songs/sona chandi.mp3",
-    //   songAvatar: "./Assets/Images/image6.jpg",
-    // },
-    // {
-    //   songName: "Tu Kal Chala",
-    //   songSrc: "./Assets/songs/tuCalChala.mp3",
-    //   songAvatar: "./Assets/Images/image4.jpg",
-    // },
+    {
+      songName: "jhatka Mare",
+      Songsrc: "./Assets/Songs/jhatka.mp3",
+      songAvatar: "./Assets/Images/image7.jpg",
+    },
+    {
+      songName: "mai nikla",
+      Songsrc: "./Assets/Songs/mai nikla.mp3",
+      songAvatar: "./Assets/Images/image7.jpg",
+    },
+    {
+      songName: "O Sanam ",
+      Songsrc: "./Assets/Songs/o sanam.mp3",
+      songAvatar: "./Assets/Images/image1.jpg",
+    },
+    {
+      songName: "Rab Kare",
+      Songsrc: "./Assets/Songs/rab kare.mp3",
+      songAvatar: "./Assets/Images/image2.jpg",
+    },
+    {
+      songName: "Rab Ko Yaad",
+      Songsrc: "./Assets/Songs/rab ko.mp3",
+      songAvatar: "./Assets/Images/image4.jpg",
+    },
+    {
+      songName: "Ratno Ko Uth",
+      Songsrc: "./Assets/Songs/ranto ko.mp3",
+      songAvatar: "./Assets/Images/image1.jpg",
+    },
+    {
+      songName: "Sawan Aaya hai",
+      Songsrc: "./Assets/Songs/sawan aaya hai.mp3",
+      songAvatar: "./Assets/Images/image2.jpg",
+    },
+    {
+      songName: "Sona Chandi",
+      Songsrc: "./Assets/Songs/sona chandi.mp3",
+      songAvatar: "./Assets/Images/image6.jpg",
+    },
+    {
+      songName: "Tu Kal Chala",
+      Songsrc: "./Assets/Songs/tuCalChala.mp3",
+      songAvatar: "./Assets/Images/image4.jpg",
+    },
   ];
 
   const handleNextSong = () => {
@@ -163,12 +163,12 @@ const Music = () => {
 
   const updateCurrentMusicDetails = (number) => {
     let musicObject = musicAPI[number];
-    currentAudio.current.src = musicObject.songSrc;
+    currentAudio.current.src = musicObject.Songsrc;
     currentAudio.current.play();
     setCurrentMusicDetails({
       songName: musicObject.songName,
       songArtist: musicObject.songArtist,
-      songSrc: musicObject.songSrc,
+      Songsrc: musicObject.Songsrc,
       songAvatar: musicObject.songAvatar,
     });
     setIsAudioPlaying(true);
@@ -213,7 +213,7 @@ const Music = () => {
     <div>
       <div className="container">
         <audio
-          src="./Assets/songs/ringtone.mp3"
+          src="./Assets/Songs/ringtone.mp3"
           ref={currentAudio}
           onEnded={handleNextSong}
           onTimeUpdate={handleAudioUpdate}
