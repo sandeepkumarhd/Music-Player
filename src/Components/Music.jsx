@@ -57,12 +57,12 @@ const Music = () => {
     },
     {
       songName: "AURORA - Runaway",
-      Songsrc: "./Assets/Songs/new2.mp3",
+      Songsrc: "./Assets/Songs/New2.mp3",
       songAvatar: "./Assets/Images/image4.jpg",
     },
     {
       songName: "Catch Me If I Fall",
-      Songsrc: "./Assets/Songs/new.mp3",
+      Songsrc: "./Assets/Songs/New.mp3",
       songAvatar: "./Assets/Images/image2.jpg",
     },
     {
