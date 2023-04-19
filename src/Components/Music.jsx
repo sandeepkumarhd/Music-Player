@@ -6,8 +6,7 @@ const Music = () => {
   const [isLigth, setIsLight] = useState(true);
   const [currentMusicDetails, setCurrentMusicDetails] = useState({
     songName: "Chasing",
-    songArtist: "NEFFEX",
-    Songsrc: "./Assets/Songs/Chasing - NEFFEX.mp3",
+    Songsrc: "./Assets/Songs/masti masti.mp3",
     songAvatar: "./Assets/Images/image1.jpg",
   });
 
@@ -24,10 +23,11 @@ const Music = () => {
   const handleMusicProgressBar = (e) => {
     setAudioProgress(e.target.value);
     currentAudio.current.currentTime =
-      (e.target.value * currentAudio.current.duration) / 100;
+      (e.target.value * currentAudio.current.duration/100);
   };
 
   //Change Avatar Class
+
   let avatarClass = ["objectFitCover", "objectFitContain", "none"];
   const [avatarClassIndex, setAvatarClassIndex] = useState(0);
   const handleAvatar = () => {
@@ -72,12 +72,12 @@ const Music = () => {
     },
     {
       songName: "Baby doll [ slowed + reverb ]",
-      Songsrc: "./Assets/Songs/new3.mp3",
+      Songsrc: "./Assets/Songs/New3.mp3",
       songAvatar: "./Assets/Images/image5.jpg",
     },
     {
       songName: "Soch (Slowed+Reverbed)",
-      Songsrc: "./Assets/Songs/new4.mp3",
+      Songsrc: "./Assets/Songs/New4.mp3",
       songAvatar: "./Assets/Images/image6.jpg",
     },
     {
