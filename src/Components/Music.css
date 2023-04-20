@@ -80,7 +80,6 @@ body{
 }
 
 .music-Artist-Name{
-    /* color: var(--mainDimColor); */
     margin: 4px 0;
     font-size: 1.2rem;
     font-weight: 400;
@@ -120,7 +119,7 @@ margin-bottom: 1rem;
     font-weight: 600;
 }
 .darKmode{
-   
+
     width: 350px;
     padding: 35px 40px;
     display: flex;
@@ -135,10 +134,11 @@ margin-bottom: 1rem;
     /* backdrop-filter: blur(15px); */
     font-weight: 600;
     background-color: #0d012c;
+    margin: auto;
 }
 .darKmode i{
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 .darKmode i:hover{
     color: white;
@@ -211,7 +211,9 @@ color: black;
         font-family: 'Poppins';   
     }
     .music-Container{
-    width: 250px;
+        height: 22rem;
+        margin:2rem auto;
+    width: 230px;
     padding: 35px 40px;
     display: flex;
     flex-direction: column;
@@ -226,8 +228,9 @@ color: black;
     font-weight: 600;
 }
 .darKmode{
-   
-    width: 250px;
+    height: 22rem;
+    margin:2rem auto;
+width: 230px;
     padding: 35px 40px;
     display: flex;
     flex-direction: column;
@@ -241,6 +244,15 @@ color: black;
     /* backdrop-filter: blur(15px); */
     font-weight: 600;
     background-color: #0d012c;
+}
+#songAvatar{
+    width: 120px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 18px 0;
+    position: relative;
+    cursor: pointer;
+    animation: animateAvatar .5s linear infinite;
 }
     
 }
