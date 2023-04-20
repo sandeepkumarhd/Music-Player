@@ -211,8 +211,8 @@ i:hover {
     max-height: 100vh;
   }
   .music-Container {
-    height: 27rem;
-    margin: 2rem auto;
+    height: 25rem;
+    margin: 2rem 3.5rem;
     width: 230px;
     padding: 35px 40px;
     display: flex;
