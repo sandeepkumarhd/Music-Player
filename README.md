@@ -9,3 +9,6 @@ The project might use a music streaming service or an API to fetch and play the 
 To build a music player project in React, one might use React components to create the various parts of the interface, such as the home screen, player controls, and search bar. The project might also incorporate third-party libraries to handle music playback and other functionality, such as React Audio Player or Howler.js.
 
 Overall, a music player project in React can be an exciting and engaging way to showcase one's React skills while also providing a useful and enjoyable application for music lovers
+
+<h1>Hosted Link </h1>
+https://music-player-1pb4.onrender.com
